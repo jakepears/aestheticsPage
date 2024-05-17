@@ -19,6 +19,7 @@ import logoPhobiaLight from '@/images/clients/phobia/logo-light.svg'
 import logoUnseal from '@/images/clients/unseal/logo-light.svg'
 import imageLaptop from '@/images/laptop.jpg'
 import { loadCaseStudies } from '@/lib/mdx'
+import SmoothScroll from '@/components/SmoothScroll'
 
 const clients = [
   ['Phobia', logoPhobiaLight],
@@ -141,36 +142,34 @@ function Services() {
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
             <ListItem title="Facials">
               Indulge in a luxurious facial experience tailored to your unique
-              skin concerns and aspirations. Our meticulous approach ensures
+              skin concerns and aspirations. This meticulous approach ensures
               that every treatment is crafted with precision, using premium
               products and expert techniques. Whether you seek rejuvenation,
-              hydration, or a radiant glow, our facials promise to leave you
+              hydration, or a radiant glow, my facials promise to leave you
               feeling refreshed, renewed, and utterly radiant.
             </ListItem>
             <ListItem title="Waxing">
-              Experience the epitome of smoothness with our professional waxing
-              services. Our team of skilled estheticians utilizes the latest
-              techniques and highest quality products to deliver impeccable
-              results. From brows to toes, we ensure a comfortable and efficient
-              waxing experience, leaving your skin silky, smooth, and
-              irresistibly touchable.
+              Experience the epitome of smoothness with professional waxing
+              services. Skilled estheticians utilizes the latest techniques and
+              highest quality products to deliver impeccable results. From brows
+              to toes, we ensure a comfortable and efficient waxing experience,
+              leaving your skin silky, smooth, and irresistibly touchable.
             </ListItem>
             <ListItem title="Eyelash Care">
-              Elevate your natural beauty with our comprehensive eyelash care
-              services. From classic extensions to volume lashes, our expert
+              Elevate your natural beauty with comprehensive eyelash care
+              services. From classic extensions to volume lashes, expert
               technicians are dedicated to enhancing your eyes with precision
               and care. Using premium products and meticulous attention to
               detail, we create stunning lash looks that captivate and
               mesmerize.
             </ListItem>
             <ListItem title="Eyebrow Treatment">
-              Discover the power of perfectly shaped brows with our tailored
-              eyebrow treatments. Our experienced estheticians understand that
-              well-groomed brows can transform your entire look, which is why we
-              offer personalized services to suit your unique preferences.
-              Whether you desire shaping, tinting, or grooming, we&apos;ll
-              sculpt your brows to perfection, leaving you with confidence and
-              charisma.
+              Discover the power of perfectly shaped brows with tailored eyebrow
+              treatments. Experienced estheticians understand that well-groomed
+              brows can transform your entire look, which is why we offer
+              personalized services to suit your unique preferences. Whether you
+              desire shaping, tinting, or grooming, we&apos;ll sculpt your brows
+              to perfection, leaving you with confidence and charisma.
             </ListItem>
           </List>
         </div>
@@ -188,13 +187,14 @@ export default async function Home() {
 
   return (
     <>
+      <SmoothScroll />
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
             Where beauty meets expertise
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            From rejuvenating facials to advanced skin treatments, we offer a
+            From rejuvenating facials to advanced skin treatments, I offer a
             wide range of services tailored to your unique needs and desires
           </p>
         </FadeIn>

@@ -36,14 +36,13 @@ function Culture() {
       <Container className="mt-16">
         <GridList>
           <GridListItem title="Loyalty" invert>
-            Dedication runs deep within our team, each member committed to our
-            shared vision. With a culture that prioritizes unity, our team
-            stands strong, fostering loyalty that transcends conventional
-            boundaries.
+            Dedication runs deep within the team, everyone committed to a shared
+            vision. With a culture that prioritizes unity, standing strong,
+            fostering loyalty that transcends conventional boundaries.
           </GridListItem>
           <GridListItem title="Trust" invert>
-            Our team operates with unwavering trust, empowered to manage their
-            time autonomously. As long as they deliver exceptional results, we
+            Operates with unwavering trust, empowered to manage their time
+            autonomously. As long as they deliver exceptional results, we
             prioritize output over micromanagement.
           </GridListItem>
           <GridListItem title="Compassion" invert>
@@ -193,15 +192,15 @@ export default async function About() {
     <>
       <PageIntro eyebrow="About us" title="Strength is collaboration">
         <p>
-          At Estrada Beauty, the strength lies in a collaborative approach, with
+          At the Beauty Bar, the strength lies in a collaborative approach, with
           clients at the center of every decision.
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
-            Estrada Beauty was founded by a passionate individual with a vision
-            to transform the esthetician industry. Fueled by a commitment to
-            provide premium services at accessible prices, the studio sets new
-            standards of excellence.
+            Bray&apos;s Beauty Bar was founded by a passionate individual with a
+            vision to transform the esthetician industry. Fueled by a commitment
+            to provide premium services at accessible prices, the studio sets
+            new standards of excellence.
           </p>
           <p>
             The studio fosters a culture of warmth and inclusivity, seeing
@@ -215,7 +214,6 @@ export default async function About() {
         <StatList>
           <StatListItem value="1" label="Underpaid employee" />
           <StatListItem value="150+" label="Placated clients" />
-          <StatListItem value="$25M" label="Invoices billed" />
         </StatList>
       </Container>
 

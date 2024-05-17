@@ -61,7 +61,7 @@ function Discover() {
           your complexion thrive.
         </p>
         <p>
-          Our process involves meticulous observation and analysis, akin to a
+          The process involves meticulous observation and analysis, akin to a
           detective unraveling clues. I closely examine your skin&apos;s
           condition, lifestyle factors, and preferences to craft a tailored plan
           that&apos;s as unique as you are.
@@ -241,7 +241,7 @@ export const metadata = {
 export default function Process() {
   return (
     <>
-      <PageIntro eyebrow="Our process" title="How we work">
+      <PageIntro eyebrow="Our process" title="How it works">
         <p>
           My commitment to efficiency and value drives every aspect of our
           esthetician services. I strive to optimize resources and streamline

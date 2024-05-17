@@ -5,7 +5,7 @@ import '@/styles/tailwind.css'
 export const metadata = {
   title: {
     template: '%s - Estrada',
-    default: 'Braylinn Estrada Aesthetics',
+    default: "Bray's Beauty Bar",
   },
 }
 

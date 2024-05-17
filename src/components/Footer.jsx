@@ -27,7 +27,10 @@ const navigation = [
     links: [
       { title: 'About', href: '/about' },
       { title: 'Process', href: '/process' },
-      { title: 'Booking', href: '/' },
+      {
+        title: 'Booking',
+        href: 'https://braysbeautybar.glossgenius.com/services',
+      },
       { title: 'Contact us', href: '/contact' },
     ],
   },
@@ -51,7 +54,7 @@ function Navigation() {
                 <li key={linkIndex} className="mt-4">
                   <Link
                     href={link.href}
-                    className="transition hover:text-neutral-950"
+                    className="hoverUnderline transition hover:text-neutral-950"
                   >
                     {link.title}
                   </Link>
@@ -124,7 +127,7 @@ export function Footer() {
             <Logo className="h-8" fillOnHover />
           </Link>
           <p className="text-sm text-neutral-700">
-            © Estrada Aesthetics LLC. {new Date().getFullYear()}
+            © Bray&apos;s Beauty Bar {new Date().getFullYear()}
           </p>
         </div>
       </FadeIn>

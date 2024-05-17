@@ -53,7 +53,7 @@ export const socialMediaProfiles = [
   { title: 'Facebook', href: 'https://facebook.com', icon: FacebookIcon },
   {
     title: 'Instagram',
-    href: 'https://www.instagram.com/braylinnestradaesthetics/',
+    href: 'https://www.instagram.com/braysbeautybar/',
     icon: InstagramIcon,
   },
   // { title: 'GitHub', href: 'https://github.com', icon: GitHubIcon },

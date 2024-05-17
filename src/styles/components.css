@@ -1,3 +1,28 @@
 @tailwind components;
 
 @import './typography.css';
+
+@layer components {
+  .hoverUnderline {
+    @apply relative;
+  }
+  .hoverUnderline::after {
+    @apply border-b border-neutral-950;
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.35s cubic-bezier(0.465, 0.183, 0.153, 0.946);
+  }
+  .hoverUnderline:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .betterEase:after {
+    transition: transform 0.35s cubic-bezier(0.465, 0.183, 0.153, 0.946);
+  }
+}
