@@ -121,10 +121,7 @@ function Services() {
         title="Here to help you identify and explore new forms of beauty."
         className="mt-24 sm:mt-32 lg:mt-40"
       >
-        <p>
-          Facials, Chemical Peels, Microdermabrasion, Laser Hair Removal,
-          Injectables, etc.
-        </p>
+        <p>Facials, Waxing, Lashes, and Eyebrow Care.</p>
       </SectionIntro>
       <Container className="mt-16">
         <div className="lg:flex lg:items-center lg:justify-end">
